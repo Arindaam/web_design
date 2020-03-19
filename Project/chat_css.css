@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #dcddde;
+}
+
+.open-button {
+  background-color: rgb(54, 54, 63);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 306px;
+}
+
+.chat_bar {
+  display: none;
+  position: fixed;
+  bottom: 47px;
+  left: 1201px;
+  width: 300px;
+}
+
+.container {
+	right: 800px;
+	width: 300px;
+}
+
+.title {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	width: 300px;
+	height: 75px;
+	line-height: 75px;
+	margin: 0 auto;
+	margin-top: 75px;
+	background-color: #222;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	border: 3px solid #222;
+}
+
+.window {
+	margin: 0 auto;
+	width: 300px;
+	height: 400px;
+	right: 800px;
+	background-color: rgb(54, 54, 63);
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-left: 3px solid #222;
+	border-bottom: 3px solid #222;
+	border-right: 3px solid #222;
+	z-index: 1;
+}
+
+.text {
+	font-family:'Ubuntu Mono', monospace;
+	font-size: 13px;
+	margin: 25px;
+	letter-spacing: 1px;
+	position: relative;
+	margin-bottom: 200px;
+}
+
+.chatbox {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: -133px;
+}
+
+.chatbox input {
+	width: 280px;
+	height: 100px;
+	text-align: center;
+	opacity: 0.8;
+	background-color: rgb(54, 54, 63);
+	border: none;
+	outline: none;
+	margin: 25px auto;
+	line-height: 100px;
+	overflow: hidden;
+	color: #222;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2.5px;
+	border-top: 3px solid #222;
+	border-bottom: 3px rgb(54, 54, 63);
+	z-index: 2;
+	position: relative;
+}
+
+#chat_close{
+	display: none;
+	border: none;
+	background-color: red;
+	position: absolute;
+	margin-left: 1231px;
+	margin-top: 50px;
+}
+
+

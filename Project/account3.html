@@ -1,0 +1,77 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="account.css">
+    <style type="text/css">
+        form.Generic input[type="email"]{
+            width:30%;
+        }
+        form.Generic input[type="tel"]{
+            width:25%;
+        }
+        form.Generic #bt{
+            background-color: black;
+            color:whitesmoke;
+            border-radius:15%;
+            height:1cm;
+            width:4cm;
+            text-align: center;
+            margin-top:-4cm;
+            margin-left:4.7cm;
+        }
+        form.Generic #bt:hover{
+            opacity:0.6;
+        }  
+        div.box #dp{
+           margin-top:-11.5cm;     
+        }
+        div.box button#dp{
+            margin-top:-13.25cm;
+        }
+        form.Generic input[name="first"]{
+            width:25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2> Collaborate </h2>
+        <form class="Generic" action='scam.php/'>
+            <input type="text" id="ln" placeholder="Name" name="first"><br>
+            <input type="email" id="ln" placeholder="Username"><br>
+            <input class="password" type="password" id="ln" placeholder="Password">
+            <input class="password" type="password" placeholder="Confirm Password">
+            <div class="container">
+                <img src="4.png" id="new">
+                <input type="button" class="btn" onclick="myFunction()">
+            </div>
+            <br>
+            <input type="text" id="ln" placeholder="City"><br>
+            <input type="tel" id="ln" placeholder="Contact Number"><br>
+            <button id="bt"> Certificate </button><br>
+            <button id="a"> Home </button> 
+            <input type="submit" value="Submit">
+            </form>
+            <img id="dp" src="18.png">
+            <button id="dp"> </button><br>
+    </div>
+    <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("password");
+                for(i=0;i<2;i++){
+                    if (x[i].type === "password") {
+                        x[i].type = "text"; 
+                        var p=document.getElementById("new");
+                        p.src="3.jpeg"
+                    } 
+                    else {
+                        x[i].type = "password";
+                        var p=document.getElementById("new");
+                        p.src="4.png"
+                    }
+                } 
+            }
+    </script>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #3d9970;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #3d9970;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #3d9970;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding-top:15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.video{
+    background-color: #fff;
+    padding-top:15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+#header {
+    background-image: url("news1.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #e60909;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3d9970;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3d9970;
+}
+progress::-moz-progress-bar {
+    color: #3d9970;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3d9970;
+   
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3d9970;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.a{
+    display: inline;
+}
+.b{
+    display: inline;
+
+}
+.c{
+    display: inline;
+
+}
+.d{
+    display: inline;
+
+
+}
+.e{
+    display: inline;
+
+
+}
+.f{
+    display: inline;
+
+
+}
+
+#motivational{
+    border: 4px dashed #000000;
+
+   
+    color: #000000;
+   font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 90px;
+    font-size: 10px;
+    text-transform:uppercase ;
+    padding :10px ;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+#feelgood{
+    border: 4px dashed #000000;
+
+   
+    color: #000000;
+   font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 90px;
+    font-size: 10px;
+    text-transform:uppercase ;
+    padding :10px ;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+#sympathetic{
+    border: 4px dashed #000000;
+
+   
+    color: #000000;
+   font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 90px;
+    font-size: 10px;
+    text-transform:uppercase ;
+    padding :10px ;
+    text-align: ;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+#all{
+    border: 4px dashed #000000;
+
+   
+    color: #000000;
+   font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 90px;
+    font-size: 10px;
+    text-transform:uppercase ;
+    padding :10px ;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+#hide{
+    background: orangered;
+    color: peru;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform:uppercase ;
+    padding :10px ;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+
+
+
+#show-more2{
+    background: orangered;
+    color: peru;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform:uppercase ;
+    padding :10px ;
+    text-align: right;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music recommendations</title>
+        <link href="css.css" rel="stylesheet">
+    </head>
+   
+    <body>
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="og_image.png">
+           <p>THERAPEUTIC MELODY</p>
+        </div>
+       
+        <div class="section">
+            <h1><span>WHY MUSIC?</span></h1>
+            <p>
+                As the saying goes, “Music is the reflection of self”, It connects to an individual on a personal level and helps them in bringing forth their intimate emotions and understanding it. One can clearly see their conscience reflected through the melody of words and help them understand their inner turmoil.
+                Through the medium of song,people realize they are not the only one suffering and this creates a brotherhood of all the listeners going through the mental and emotional blockade across space and time and thus creating an unparalleled therapeutic experience.            </p>
+            <p class="quote">"Where words fail, music speaks."</p>
+        </div>
+       
+        
+        
+        <div class="section">
+            <h1><span>STATS</span></h1>
+            <ul>
+                <li>Percentage of US population that listen to music. <br />
+                    <progress min="0" max="100" value="93"></progress>
+                </li>
+                <li>Percentage of people engaging in music as a side activity while studying. <br />
+                    <progress min="0" max="100" value="87"></progress>
+                </li>
+                <li>Percentage of most watched youtube videos that are music. <br />
+                    <progress min="0" max="100" value="95"></progress>
+                </li>
+            </ul>
+        </div>
+       
+       
+        <div class="video">
+            <h1><span>Suggestions</span></h1>
+            <iframe class="a" height="150" width="300" src="https://www.youtube.com/embed/watch?v=QbEcl1OCN6E&list=RDMMQbEcl1OCN6E&start_radio=1 "allowfullscreen frameborder="0"></iframe>
+            <iframe class="a" height="150" width="300" src="https://www.youtube.com/embed/watch?v=_Yhyp-_hX2s"allow="encrypted-media" allowfullscreen frameborder="0" align="right"></iframe>
+            
+            <iframe class="b" height="150" width="300" src="https://www.youtube.com/embed//watch?v=kXYiU_JCYtU" allowfullscreen frameborder="0"></iframe>
+            <iframe class="b" height="150" width="300" src="https://www.youtube.com/embed//watch?v=XJwB2b3oXfY" allow="autoplay; encrypted-media" allowfullscreen frameborder="0" align="right"></iframe>
+
+            
+            <iframe class="c" height="150" width="300" src="https://www.youtube.com/embed//watch?v=Kb24RrHIbFk" allowfullscreen frameborder="0"></iframe>
+            <iframe class="c" height="150" width="300" src="https://www.youtube.com/embed//watch?v=WZC7ksb_Cck" allowfullscreen frameborder="0" align="right"></iframe>
+
+            <iframe class="d" height="150" width="300" src="https://www.youtube.com/embed//watch?v=AjKbw1Cqpt0" allowfullscreen frameborder="0"></iframe>
+            <iframe class="d" height="150" width="300" src="https://www.youtube.com/embed//watch?v=JxvVk-r9ut8" allowfullscreen frameborder="0" align="right"></iframe>
+
+            
+            <iframe class="e" height="150" width="300" src="https://www.youtube.com/embed//watch?v=lYhF-jnmonQ" allowfullscreen frameborder="0"></iframe>
+            <iframe class="e" height="150" width="300" src="https://www.youtube.com/embed//watch?v=bXvgDq4ASGM" allowfullscreen frameborder="0" align="right"></iframe>
+
+
+            <iframe class="f" height="150" width="300" src="https://www.youtube.com/embed//watch?v=p6e3y6nY_H0" allowfullscreen frameborder="0"></iframe>
+            <iframe class="f" height="150" width="300" src="https://www.youtube.com/embed//watch?v=wp3kcWOda6k" allowfullscreen frameborder="0" align="right"></iframe>
+
+
+
+
+        </div>
+       
+       <div class="section">
+            <h1><span>Contact us for more recommendations</span></h1>
+           
+                
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+       
+       
+       
+       
+       
+    </body>
+</html>
+
+
+
+

@@ -1,0 +1,80 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="account.css">
+    <style type="text/css">
+        form.Generic input[type="email"]{
+            width:30%;
+        }
+        form.Generic input[type="tel"]{
+            width:25%;
+        }
+        form.Generic input[type="radio"]{
+            width:5%;
+            padding:0%;
+            display: initial;
+            margin-top:0.4cm;
+            border:none;
+            border-radius:none;
+            align-content: center;   
+        }
+        form.Generic #bt{
+            background-color: black;
+            color:whitesmoke;
+            border-radius:15%;
+            height:1cm;
+            width:4cm;
+            text-align: center;
+            margin-top:-4.7cm;
+            margin-left:4.7cm;
+        }
+        form.Generic #bt:hover{
+            opacity:0.6;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2> Create Personal Account </h2>
+        <form class="Generic" name='RegForm' action='signup.php/' method='POST'>
+            <input type="text" id="ln" placeholder="First Name" name="first_name">
+            <input type="text" placeholder="last_name" name='last_name'><br>
+            <input type="email" id="ln" placeholder="username" name='username'><br>
+            <input class="password" type="password" id="ln" placeholder="Password" name='password'>
+            <input class="password" type="password" placeholder="Confirm Password" name='password2'>
+            <div class="container">
+                <img src="4.png" id="new">
+                <input type="button" class="btn" onclick="myFunction()">
+            </div>
+            <br>
+            <input type="text" id="ln" placeholder="City" name='city'>
+            <input type="date" name='dob'><br>
+            <input type="tel" id="ln" placeholder="Contact Number" name='number' ><br>
+            <input type="radio" name="gender" id="ln"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Others <br>
+            <button id="a"> Home </button> 
+            <input type="submit" value="Submit">
+        </form>
+        <img id="dp" src="18.png">
+        <button id="dp"> </button><br>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("password");
+            for(i=0;i<2;i++){
+                if (x[i].type === "password") {
+                    x[i].type = "text"; 
+                    var p=document.getElementById("new");
+                    p.src="3.jpeg"
+                } 
+                else {
+                    x[i].type = "password";
+                    var p=document.getElementById("new");
+                    p.src="4.png"
+                }
+            } 
+        }
+    </script> 
+</body>
+</html>

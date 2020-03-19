@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatBox</title>
+	<link rel="stylesheet" type="text/css" href="chat_css.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+
+	<button class="open-button" id="chat_btn" onclick="openChat()"> CHAT </button>
+
+	<div class="chat_bar" id='chat_button'>
+
+	<div class="container">
+		<div class="title"> Chat </div>
+		<div class="window">
+			<div class="text" id="chat-output"></div>
+		</div>
+		<div class="chatbox">
+			<input placeholder="Type message..." id="chat-input">
+		</div>
+	</div>
+	</div>
+	<div>
+		<button class="chat_cl" id="chat_close" onclick="closeChat()"> X </button>
+	</div>
+
+	<script>
+		function openChat() {
+  			document.getElementById("chat_button").style.display = "block";
+  			document.getElementById("chat_close").style.display = "block"; 
+	}
+
+		function closeChat() {
+  			document.getElementById("chat_button").style.display = "none";
+  			document.getElementById("chat_close").style.display = "none";
+	}
+	</script>
+
+	<style>	
+		::placeholder{
+			color: white;
+		}
+	</style>
+
+	<script type="text/javascript">
+
+		var chatinput = document.getElementById("chat-input");
+		var chatoutput = document.getElementById("chat-output");
+		var textstyle = document.querySelector(".text");
+		var chatarray = [];
+		var chatbutton = document.getElementById("chat_btn");
+
+
+
+		var date = new Date();
+		var day = "["+date.getDate()+"."+date.getMonth()+"."+date.getFullYear()+"]:";
+		var time = "["+date.getHours()+":"+date.getMinutes()+"]:";
+
+		chatinput.addEventListener("keyup", function(event) {
+
+			event.preventDefault();
+
+			if (event.keyCode === 13) {
+				send();
+			}
+
+		});
+
+		function send() {
+
+			chattext = time+" "+chatinput.value;
+			chatarray.push(chattext);
+			var newchatarray = chatarray.join("\n");
+
+			chatoutput.innerText = newchatarray;
+			chatinput.value = "";
+
+			
+			textstyle.style.backgroundColor = "#222";
+			textstyle.style.color = "#fff";
+			textstyle.style.padding = "10px 20px";
+			textstyle.style.borderRadius = "5px";
+
+		}
+
+	</script>
+
+</body>
+</html>

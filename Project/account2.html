@@ -1,0 +1,104 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="account.css">
+    <style type="text/css">
+        form.Generic input[type="email"]{
+            width:30%;
+        }
+        form.Generic input[type="tel"]{
+            width:25%;
+        }
+        form.Generic input[type="radio"]{
+            width:5%;
+            padding:0%;
+            display: initial;
+            margin-top:0.4cm;
+            border:none;
+            border-radius:none;
+            align-content: center;   
+        }
+        form.Generic #bt{
+            background-color: black;
+            color:whitesmoke;
+            border-radius:15%;
+            height:1cm;
+            width:4cm;
+            text-align: center;
+            margin-top:-5cm;
+            margin-left:4.7cm;
+        }
+        form.Generic #bt:hover{
+            opacity:0.6;
+        }   
+        form.Generic input[name="first"]{
+           margin-top:0.5cm;
+        }   
+        form.Generic #sky{
+           margin-left:4cm;
+           margin-top:-2cm;
+        }
+        form.Generic #a{
+            margin-top:-3cm;
+        }
+        div.box #dp{
+             margin-top:-13.75cm;
+        }
+        div.box button#dp{
+            margin-top:-15.5cm;
+        }
+    </style>  
+</head>
+<body>
+    <div class="box">
+            <h2> Create Proffesional Account </h2>
+            <form class="Generic" action='scam.php/'>
+                <input type="text" id="ln" placeholder="First Name" name="first">
+                <input type="text" placeholder="Last Name"><br>
+                <input type="email" id="ln" placeholder="Username"><br>
+                <input class="password" type="password" id="ln" placeholder="Password">
+                <input class="password" type="password" placeholder="Confirm Password">
+                <div class="container">
+                    <img src="4.png" id="new">
+                    <input type="button" class="btn" onclick="myFunction()">
+                </div>
+                <br>
+                <input type="text" id="ln" placeholder="City">
+                <input type="date"><br>
+                <input type="tel" id="ln" placeholder="Contact Number"><br>
+                <input type="radio" name="gender" id="ln"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Others <br>
+                <button id="bt"> Upload Degree(s) </button><br>
+                <input type="text" id="ln" placeholder="Organisation">
+                <select name="Qualification" placeholder="Qualification">
+                    <option> Qualification </option>
+                    <option> MBBS </option>
+                    <option> MD </option>
+                </select> <br>
+                <button id="bt"> Upload ID Proof </button><br>
+                <input type="text" id="sky" placeholder="skype id"><br>
+                <button id="a"> Home </button> 
+                <input type="submit" value="Submit">
+            </form>
+            <img id="dp" src="18.png">
+            <button id="dp"> </button><br>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("password");
+                for(i=0;i<2;i++){
+                    if (x[i].type === "password") {
+                        x[i].type = "text"; 
+                        var p=document.getElementById("new");
+                        p.src="3.jpeg"
+                    } 
+                    else {
+                        x[i].type = "password";
+                        var p=document.getElementById("new");
+                        p.src="4.png"
+                    }
+                } 
+            }
+        </script>
+</body>
+</html>
