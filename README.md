@@ -14,12 +14,14 @@ e) PHP
 
 ISSUES THAT CAN BE SOLVED :
 1) Panel to show all doctors
-2) Database for all doctors storing chats with various patitent
-3) Showing Stored patient  or doctor profiles and enabling editing.
+2) Database for all doctors storing chats with various patients.
+3) Showing Stored patient or doctor profiles and enabling editing. Enabling the home button after the profile is created.
 4) Uploading image and storing in database. Viewing it when viewing profile.
 5) Storing threads on forums.
-6) Adding backend to collaborate.
+6) Adding backend to collaborate. Separate for organisations. Organisation profiles shall recieve mail like collaborate requests and backend to validate if they have attended to the request.
+7) Forgot Password option
+8) Form Validation. 
 
-You can suggest and make other changes that shall help the project.
+You can suggest and make other changes that make the project better.
 
 
